@@ -80,7 +80,7 @@ a:after {
 
 #headerwrap {
 	background: url(../img/nebula.jpg) no-repeat center top;
-	margin-top: px;
+	margin-top: -5px;
 	padding-top:20px;
 	text-align:center;
 	background-attachment: relative;
