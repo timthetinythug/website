@@ -20,7 +20,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
