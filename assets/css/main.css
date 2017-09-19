@@ -80,12 +80,13 @@ a:after {
 
 #headerwrap {
 	background: url(../img/nebula.jpg) no-repeat center top;
-	margin-top: -5px;
+	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	height: 800px;
+	min-height: 500px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -358,6 +359,12 @@ a:after {
    font-size: 20px;
 }
 
+/*#about .scroll-down .icon-down-circle {
 
+  padding-left: 50%;
+  padding-bottom: 5%;
+  height: 60px;
+  width: 60px;
+  background-color: black; 
 
 
