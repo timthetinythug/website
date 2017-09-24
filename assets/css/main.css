@@ -27,6 +27,10 @@ h2, h3, h4, h5, h6 {
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
+h5 { 
+    letter-spacing: 0px;
+}
+
 /* Titles */
 h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -56,6 +60,7 @@ a {
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
+    text-align: right;
 }
 
 a:hover,
@@ -163,7 +168,6 @@ a:after {
 	text-align: center;
 }
 
-
 /* MENU CONF*/
 
 .menu {
@@ -172,7 +176,7 @@ a:after {
 	width: 260px;
 	height: 100%;
 	top: 0;
-	z-index: 10;
+	z-index: 9;
 	text-align: left;
 }
 
@@ -184,9 +188,10 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background-color: rgba(15,15,15,0.9);
 	width: 200px;
 	height: 100%;
+    z-index: -1
 }
 
 .menu h1.logo a {
@@ -216,7 +221,7 @@ a:after {
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 40px;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.15em;
 	text-transform: uppercase;
 }
 
@@ -319,3 +324,20 @@ a:after {
 		-ms-transition: all .2s ease-in-out;
 		 -o-transition: all .2s ease-in-out;
 			transition: all .2s ease-in-out;
+    
+}
+
+.myImage {
+    padding-right: 50px;
+    padding-left: 25px;
+    padding-bottom: 200px;
+    float: left;
+    height: 400px;
+    
+}
+
+.headingProfile {
+    text-align: left;
+    
+}
+
