@@ -60,7 +60,6 @@ a {
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
-    float: right;
 }
 
 a:hover,
@@ -175,7 +174,7 @@ a:after {
 	width: 260px;
 	height: 100%;
 	top: 0;
-	z-index: 9;
+	z-index: 10;
 	text-align: left;
 }
 
@@ -187,10 +186,9 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background-color: rgba(15,15,15,0.9);
+	background: #1a1a1a;
 	width: 200px;
 	height: 100%;
-    z-index: -1
 }
 
 .menu h1.logo a {
@@ -220,8 +218,9 @@ a:after {
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 40px;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
+
 }
 
 .menu a:hover {
@@ -318,11 +317,11 @@ a:after {
 #menuToggle:hover {
 	color: #ffffff;
 	background: rgba(0,0,0,0.2);
-	-webkit-transition: all .2s ease-in-out;
-	   -moz-transition: all .2s ease-in-out;
-		-ms-transition: all .2s ease-in-out;
-		 -o-transition: all .2s ease-in-out;
-			transition: all .2s ease-in-out;
+	-webkit-transition: all .1s ease-in-out;
+	   -moz-transition: all .1s ease-in-out;
+		-ms-transition: all .1s ease-in-out;
+		 -o-transition: all .1s ease-in-out;
+			transition: all .1s ease-in-out;
     
 }
 
@@ -331,7 +330,7 @@ a:after {
     padding-left: 25px;
     padding-bottom: 200px;
     float: left;
-    height: 400px;
+    height: 410px;
     
 }
 
